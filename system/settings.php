@@ -1,7 +1,7 @@
 <?php
 //session_destroy();
-//session_start();
-//ob_start("ob_gzhandler");
+session_start();
+ob_start("ob_gzhandler");
 
 error_reporting(0);
 
