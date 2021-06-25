@@ -1,3 +1,8 @@
+<?php
+require_once "../../system/settings.php";
+require_once "../../system/functions.php";
+?>
+
 <!DOCTYPE html>
 <html lang="tr">
 
