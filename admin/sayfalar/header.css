@@ -1,0 +1,52 @@
+.ust_bar{
+    position: relative;
+    width: 85%;
+    height: 100px;
+    left: 0;
+    background: #292830;
+
+}
+.ust_bar h1{
+    position: absolute;
+    line-height: 50px;
+    left: 50px;
+   
+    color: white;
+    
+}
+.menu h5{
+    position: relative;
+    display: inline;
+    padding: 50px;
+    line-height: 100px;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+
+}
+.menu{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    background: #292830;
+    right: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.cikis{
+    position: absolute;
+    width: 15px;
+    height: 100px;
+    background: #292830;
+    right: 0;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.cikis:hover{
+    background: red;
+}
