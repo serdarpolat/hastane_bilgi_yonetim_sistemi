@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'helvatica',sans-serif;
+    text-align: center;
+    background-clip: #fff;
+}
+header{
+    position: relative;
+    width: 100%;
+    left: 0;
+    height: 150px;
+    background: #292830;
+    top: 0;
+}
+header h2{
+    position: absolute;
+    color: #fff;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.tableouther{
+    width: 750px;
+    height: 480px;
+    margin: 0 auto;
+    background: #e7e7e7;
+    border-radius: 10px;
+}
+input[type="text"],
+input[type="password"]{
+    width: 60%;
+    margin: 10px;
+    height: 50px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25;
+    color: gray;
+}
+::placeholder{
+    font: 25px;
+    text-align: center;
+}
+.sub{
+    height: 40px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 15px;
+}
+
+#giris{
+    background: #10ac84;
+
+}
+#uye{
+    background: #ee5253;
+}
+#giris:hover{
+    background: #1dd1a1;
+}
+#uye:hover{
+    background: #ff6b6b;
+}
+
+a{
+    font-size: 18px;
+    color: (100,100,100);
+}
