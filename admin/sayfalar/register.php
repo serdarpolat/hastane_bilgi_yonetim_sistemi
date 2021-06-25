@@ -12,19 +12,22 @@
     </header>
 
     <div class="tableOuter">
-        <h1> Giriş Yap</h1>
+        <h1> Üye Ol</h1>
         <form action="islem.php" method="post">
+        <div class="ad">
+                <input type="text" name="adsoyad" placeholder="Ad Soyad">            
+            </div>
             <div class="user">
-                <input type="text"  placeholder="Tc Kimlik No">            
+                <input type="text" name="tc" placeholder="Tc Kimlik No">            
             </div>
             <div class="pass">
-                <input type="password" placeholder="Şifre">            
+                <input type="password"name="password"placeholder="Şifre">            
             </div>
             <div class="pass">
-                <button type="submit" class="sub" id="giris"> Giriş Yap</button>          
+                <button type="submit" class="sub" id="giris"> Üye Ol</button>          
                 <br>  
             </div>
         </form>
-        <a href="uye.php"><button type="submit" id="uye">Üye Ol</button></a>
+        <a href="uye.php"><button type="submit" id="uye">Geri Çık</button></a>
     </div>
 </body>    
