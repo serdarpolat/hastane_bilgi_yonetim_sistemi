@@ -10,7 +10,9 @@
 
 <body>
     <?php
-    include 'header.php'
+    if (!$_SESSION['user_login']) {
+        go("../sayfalar/login.php");
+    }
     ?>
 </body>
 
